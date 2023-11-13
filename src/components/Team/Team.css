@@ -1,0 +1,21 @@
+
+.services__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 1.875rem;
+}
+
+.services__card {
+  text-align: center;
+ 
+  border-radius: var(--border-radius);
+  background-color: var(--container-color);
+  transition: all 0.3s ease-in-out;
+  padding: 1.875rem;
+
+  box-shadow:var(--shadow);
+}
+
+.services__card:hover {
+  transform: translateY(-10px);
+}
